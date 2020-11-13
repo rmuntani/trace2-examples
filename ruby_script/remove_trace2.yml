@@ -1,0 +1,4 @@
+---
+- :allow:
+  - :path:
+    - !ruby/regexp /ruby_script/

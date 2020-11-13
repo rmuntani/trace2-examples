@@ -1,0 +1,5 @@
+digraph {
+	"Runner" -> "Randomizer"
+	"Trace2::ExecutableRunner" -> "Runner"
+	"Runner" -> "Runner"
+}

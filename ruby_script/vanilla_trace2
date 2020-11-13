@@ -1,0 +1,9 @@
+digraph {
+	"Runner" -> "Randomizer"
+	"Trace2::ExecutableRunner" -> "Trace2::ExecutableRunner"
+	"Trace2::ClassLister" -> "TracePoint"
+	"Runner" -> "Runner"
+	"Trace2::Runner" -> "Trace2::Runner"
+	"Trace2::Runner" -> "Trace2::ClassLister"
+	"Trace2::ExecutableRunner" -> "Runner"
+}
