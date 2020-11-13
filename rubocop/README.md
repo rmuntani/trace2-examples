@@ -49,6 +49,7 @@ To use it:
 trace2 -o full_rubocop_run --filter ../trace2-examples/rubocop/runner_filter.yml rubocop -C false
 ```
 
-That stil generates a graph that is too big, with around 500 edges, but it shows
-that `Rubocop::Runner` is responsible for calling all the `Cops`. Similar logic could
+That stil generates a graph that could not be properly rendered by graphviz, as a
+single node has almost 500 edges leaving it. Despite that, the excercise was useful to
+determine `Rubocop::Runner` that is responsible for calling all the `Cops`. Similar logic could
 be applied to other runners to find out how responsibilities are distributed.
